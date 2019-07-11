@@ -115,3 +115,13 @@ grid-column-gap: 1em;
     background: #888;
     min-height:30vh;
 }
+
+/* UI GALLERY*/
+
+.ui-designs {
+    text-align: center;
+}
+
+.ui-designs img {
+    max-width: 100px;
+}
