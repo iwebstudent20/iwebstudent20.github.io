@@ -125,3 +125,21 @@ grid-column-gap: 1em;
 .ui-designs img {
     max-width: 100px;
 }
+
+/* BLOG Archives */
+
+.blog-archives {
+    max-width: 600 px;
+    margin: 0 auto;
+}
+
+.blog-entry {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
+}
