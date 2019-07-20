@@ -80,9 +80,28 @@ footer nav ul {
     display: grid;
     align-content: center;
     text-align: center;
-    background:darkred;
-    min-height: 50vh;
+    background-color:darkred;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
     color: white;
+}
+
+.page-sub .hero {
+    background-color: #888;
+    min-height:90vh;
+}
+
+.page-home .hero {
+    background-image: url("../images/mememash.png");
+}
+
+.page-about .hero {
+    background-image: url("../images/Doge-waterfall.png");
+}
+
+.page-blog .hero {
+    background-image: url("../images/irondoge.png");
 }
 
 .hero h2 {
@@ -111,10 +130,7 @@ grid-column-gap: 1em;
 }
 
 /*SUB PAGES*/
-.page-sub .hero {
-    background: #888;
-    min-height:30vh;
-}
+
 
 /* UI GALLERY*/
 
